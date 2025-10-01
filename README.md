@@ -24,6 +24,9 @@
     -  Model Training
         Fit a Random Forest Classifier with tuned hyperparameters.
         Compared train/validation/test accuracy.
+
+   
+        
       
     -  Evaluation
       Generated classification report with precision, recall, F1.
@@ -32,4 +35,23 @@
     -  Interpretation
       Extracted feature importances (top drivers: balance, age, day, campaign).
       Visualized decision tree paths for interpretability.
+
+  # Results
+
+   - Test Accuracy: 0.74
+
+    - Precision / Recall / F1:
+
+Class	Precision	Recall	F1-score	Support
+no	0.72	0.83	0.77	878
+yes	0.77	0.64	0.70	797
+Overall	–	–	0.74	1,675
+
+    - Feature Importances (top 3):
+
+       Balance (avg yearly account balance)
+        Age
+       Number of contacts in campaign
+
+- Insight: Customers with higher balances, contacted after fewer days (pdays), and in fewer overall campaign calls were most likely to subscribe.
     
