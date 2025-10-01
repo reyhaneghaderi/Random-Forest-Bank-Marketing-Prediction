@@ -25,6 +25,19 @@
         Fit a Random Forest Classifier with tuned hyperparameters.
         Compared train/validation/test accuracy.
 
+# Impact & Applications
+
+  - Banking & Finance: optimize marketing campaigns, reduce call costs, target high-probability clients.
+   - Business Intelligence: combine ML predictions with customer profiling.
+   - Cross-domain: methods can generalize to churn prediction, fraud detection, or loan default risk.
+
+  #   Research Extensions 
+
+   - Compare Random Forest with XGBoost/LightGBM for improved accuracy.
+   - Apply SHAP/LIME for deeper interpretability.
+   - Explore fairness metrics (are predictions biased by age or job type?).
+    - Extend to time-aware models to incorporate campaign history.
+
    
         
       
