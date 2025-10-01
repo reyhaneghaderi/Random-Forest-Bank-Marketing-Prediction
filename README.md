@@ -21,15 +21,15 @@
         Encoded months/days into numeric values.
         Split dataset into training, validation, and test sets.
 
-    - Model Training
+    -  Model Training
         Fit a Random Forest Classifier with tuned hyperparameters.
         Compared train/validation/test accuracy.
       
-    - Evaluation
+    -  Evaluation
       Generated classification report with precision, recall, F1.
       Built confusion matrix to analyze prediction errors.
       
-    - Interpretation
+    -  Interpretation
       Extracted feature importances (top drivers: balance, age, day, campaign).
       Visualized decision tree paths for interpretability.
     
