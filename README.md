@@ -42,7 +42,7 @@
 
     - Precision / Recall / F1:
     
-    - Class	Precision	Recall	F1-score	Support
+- Class	Precision Recall F1-score Support
 - no	0.72	0.83	0.77	878
 - yes	0.77	0.64	0.70	797
 - Overall	–	–	0.74	1,675
