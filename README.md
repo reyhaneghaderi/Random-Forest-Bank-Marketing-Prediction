@@ -52,7 +52,6 @@
   # Results
 
    - Test Accuracy: 0.74
-
     - Precision / Recall / F1:
     
 - Class	Precision Recall F1-score Support
@@ -67,4 +66,11 @@
        Number of contacts in campaign
 
 - Insight: Customers with higher balances, contacted after fewer days (pdays), and in fewer overall campaign calls were most likely to subscribe.
+
+  # Visual Examples
+
+- Distribution of customer ages and balances.
+- Elbow curve of feature importances.
+- Decision tree excerpt showing rule splits.
+  
     
