@@ -16,7 +16,7 @@
 
 # what I did in code
 
-  -   Data Preprocessing
+   - Data Preprocessing
         Handled categorical features (job, contact, poutcome, etc.).
         Encoded months/days into numeric values.
         Split dataset into training, validation, and test sets.
